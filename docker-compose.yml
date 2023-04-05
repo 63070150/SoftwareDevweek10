@@ -5,7 +5,7 @@
 services:
   frontend:
     build: ./frontend
-    image: framejframej6/frontend:1.0
+    image: 63070150/frontend:1.0
     # use python rather than gunicorn for local dev
     healthcheck: 
       test: ["CMD", "curl", "-f", "http://localhost"]
