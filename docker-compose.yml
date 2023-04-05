@@ -23,7 +23,7 @@ services:
 
   backend:
     build: ./backend
-    image: framejframej6/backend:1.0
+    image: 63070150/backend:1.0
     # use nodemon rather than node for local dev
     healthcheck: 
       test: ["CMD", "curl", "-f", "http://localhost"]
